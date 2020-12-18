@@ -1,61 +1,59 @@
-.col{
-    background-color: blue;
+/* body{
+
+} */
+/* navbar */
+.navbar{
+    box-shadow: 10px 0px 15px grey;
+    z-index: 1;
+}
+.nav-center{
+    margin: auto auto;
+}
+.fa-times{
+    color: black;
+    /* background-color: black; */
+}
+.nav-item{
+    font-weight: bold;
+    letter-spacing: .10rem;
+    font-size: 15px;
+}
+.carousel{
+    box-shadow: 0px 5px 10px grey;
+    z-index: 1;
+} 
+.carousel-item{
+    max-height: vh;
 }
 
-.navbar-nav > li{
-    padding-left:10px;
-    padding-right:10px;
-  }
-
-  .navbar{
-    background-color: rgb(248, 83, 92) ;
-  }
-
-  .footer-bottom__left{
-      height: 60px;
-      margin-top: 10px;
-      /* background-color: rgb(248, 83, 92); */
-  }
-
-  img.fbimg{
-    position: absolute;
-    top: 15px;
-    left: 110px;
-    width: 25px;
-    height: 25px;
-    cursor: pointer;
+/* introduction beneath carosel */
+.greet{
+    margin: 35px auto;
+    text-align: center;
+    
 }
-img.twitterimg{
-    position: absolute;
-    top: 15px;
-    left: 150px;
-    width: 25px;
-    height: 25px;
-    cursor: pointer;
+.greeting{
+    
+    font-weight: bold;
+    text-shadow: 2px 5px 5px grey;
 }
-img.instaimg{
-    position: absolute;
-    top: 15px;
-    left: 185px;
-    width: 25px;
-    height: 25px;
-    cursor: pointer;
+.greet-text{
+    width: 50%;
+    margin: 10px auto;
+    text-align: justify;
 }
-img.utubeimg{
-    position: absolute;
-    top: 15px;
-    left: 225px;
-    width: 25px;
-    height: 25px;
-    cursor: pointer;
-}
-img.whatsappimg{
-    position: absolute;
-    top: 15px;
-    left: 265px;
-    width: 25px;
-    height: 25px;
-    cursor: pointer;
+.info{
+    margin: auto 10px !important;
 }
 
-  
+/* 2 cloumn beneath introduction ... image and text */
+.colone{
+    background-color: burlywood;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.coltwo{
+    background-color: cadetblue;
+
+}
